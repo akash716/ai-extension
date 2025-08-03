@@ -1,0 +1,78 @@
+/* Reset and Base */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121826;
+    color: #f8f8f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: auto;
+  }
+  
+  /* Container */
+  .popup-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Title */
+  h2 {
+    text-align: center;
+    color: #00e0ff;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #1f2937;
+    color: #f8f8f8;
+    border: 1px solid #2d3748;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #00e0ff;
+    color: #121826;
+  }
+  
+  /* Textarea */
+  textarea {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    resize: none;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  
+  /* Input */
+  input {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: #f8f8f8;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  /* Answer Output */
+  #answer {
+    margin-top: 10px;
+    background-color: #1f2937;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid #374151;
+    color: #00e0ff;
+    white-space: pre-wrap;
+  }
+  
